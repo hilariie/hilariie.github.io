@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Video Transcriber</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--icon-->
+    <link rel="shortcut icon" href="images/Slide1.jpg" title="Icon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../../work/work.html">Work Experience</a>
+                            </li>
+                            <li>
+                                <a href="../../Education/education.html">Education</a>
+                            </li>
+                            <li>
+                                <a href="../../index.html#four">Open Source Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Video Transcriber and Translator</h1>
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+                <div class="welcome-video">
+                    <video width="720" height=auto controls autoplay muted loop>
+                        <source src="videos/pidgin_translator.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+
+
+
+        <!--University of Reading-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>Research Volunteer</h3> -->
+                        <h2 class="section-title">Problem definition</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <p>A large population of Nigerians are for familiar with Pidgin English than English itself. However, irregardless of this fact, news, official documents, movies, 
+                                governmental interviews and other important sources of vital information and done in English, leaving out a big part of the country's population. There is a dire need 
+                                for inclusivity, a sincere need to provide translations in their beloved Pidgin English so as to reduce misinformation and help people not familiar with English.
+                            </p>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of University of Reading-->
+
+
+
+        <!--Mountain Top University-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">Solution</h2>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <p>Leveraging LLMs that have been trained on large amounts of data, I developed an audio transriber and translation system.
+                                The initial system makes use of OpenAI's Whisper model to transcribe audio to text, then OpenAI's GPT models to translate the transcribed text to Pidgin English or any of the
+                                local Nigerian dialects such as Igbo, Yoruba, Hausa, e.t.c. This approach provides a good solution to the problem however, the system is slow and expensive due to the use of 2 pay-to-use models.
+                                The initial system cannot be used to transcribe and translate videos for the reasons stated above and thus, was only used to transcribe and translate short voice recordings.<br><br>
+                                
+                                To solve the problem we set out to solve, which is to translate news and interviews so people who are not conversant with English language can understand the video, I modified the system to make use of Youtube's already generated autocaptions.
+                                This solves the problem of speed and partially solves the problem of cost. The current system downloads a Youtube video along with its caption, translates the caption to pidgin, and then it outputs
+                                the pidgin translation as captions so people can read along and follow the video. Unlike the initial system that was only used to translate short voice recordings, this current system solves the problem
+                                that was identified.<br><br>
+
+                                Future work would include using "open source" LLMs like LLama2 for translation so as to completely eliminate the cost in this project.
+
+                            </p>                    
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of MTU-->
+
+
+
+        
+       
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!-- <script src="js/jquery.stickyNavbar.min.js"></script> -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>

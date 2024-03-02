@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>C-elegan Tracker</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--icon-->
+    <link rel="shortcut icon" href="images/Slide1.jpg" title="Icon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../../work/work.html">Work Experience</a>
+                            </li>
+                            <li>
+                                <a href="../../Education/education.html">Education</a>
+                            </li>
+                            <li>
+                                <a href="../../index.html#four">Open Source Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>C-elegans Tracking and Analysis System</h1>
+                    <!-- <h2>From creating systems to increase business profit to creating solutions that save lives, below is a detailed overview of my work experience.</h2> -->
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+                <div class="welcome-video">
+                    <video width="720" height=auto controls autoplay muted loop>
+                        <source src="videos/c-elegans-overview.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+
+
+
+        <!--University of Reading-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>Research Volunteer</h3> -->
+                        <h2 class="section-title">Problem definition</h2>
+                        <h3>Why is this important? For a greener future.</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <p>C. elegans worms are organisms which are studied in-order to gain
+                                an understanding of other things. For example, researchers investigated the behaviour of these worms 
+                                in order to detect the presence of environmental toxins in the soil (<a href="https://hwbdocs.env.nm.gov/Los%20Alamos%20National%20Labs/References/9590.PDF">source</a>). 
+                                Similarly, there is ongoing research on analysing C.elegans mating behaviours in an attempt to reveal soil conditions with regards to pollution (<a href="https://www.sciencedirect.com/science/article/abs/pii/S0165993621000583#:~:text=In%20recent%20years%2C%20Caenorhabditis%20elegans,along%20with%20relieving%20ethical%20constraints.">source</a>). 
+                                However, the manual method of observing their mating process is time-consuming, restricting the scope and efficiency of comprehensive studies. For this reason, there is a need for an automated analysis tool.
+
+                                <br><br><br>I worked remotely with two professors from the University of Reading alongside other researchers.
+                                My contribution to the team was to design, implement, evaluate and provide a detailed report on the system proposed in this study.
+                            </p>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of University of Reading-->
+
+
+
+        <!--Mountain Top University-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">YOLO, DeepSORT, and SAM</h2>
+                        <h3>The Almighty Trio</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <!-- <h4>Research</h4> -->
+                            <p>The system proposed in this study uses a Convolutional Neural Network (CNN) model - YOLO in this case - to detect and localise worms in a video, while using DeepSORT to track the detected worms. Although these two algorithms are considered to 
+                                be state-of-the-art (SOTA) algorithms, the combined performance in this case study was poor. The YOLO model would wrongly classify worm imprints as worms while the DeepSORT tracker would often lose track of worms thinking an already tracked worm is a new worm. In an attempt to improve the system's tracking performance, image segmentation was introduced. Initially, adaptive thresholding was utilised but to little avail. We then opted to use Meta AI's Segment Anything Model (SAM).
+                             Below is the system's design:<br>
+                            <ul>
+                                <ul>
+                                    <li>Pass video frames into the YOLO model to detect and localise worms</li>
+                                    <li>Pass detected bounding boxes of the worms into the SAM model so we can segment each worm from the background</li>
+                                    <li>Pass in the new frame containing detected worms (now white) in a black background into DeepSORT for tracking</li>
+                                </ul>
+                            </ul>
+
+                        </p>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of MTU-->
+
+
+
+        <!-- -->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">Custom Algorithms for Mating Analysis</h2>
+                        <h3>Euclidean Distance to the Rescue!</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <!-- <h4>Research</h4> -->
+                            <p>As mentioned earlier, this study aimed to make available, a tool for the automated mating analysis of C. elegans. Although we were able to track worms, 
+                                a more important task is to detect mating instances in a video. To do this, we need to first of all, identify the different genders in a video (i.e., 
+                                identify the male and female worms). It is observed in the videos, that the male worm is more mobile than the female worms. We leveraged this fact to 
+                                develop a gender identification algorithm. This works by recording the location of all worms in the first frame of a video and after a few frames, we 
+                                record each worm's new location and compute the distance between their current location and their initial location using the Euclidean distance formula. 
+                                The worm with the largest distance (i.e., the worm that has moved the farthest) is identified as the male worm and the others as female worms.<br><br>
+                                After identifying the genders, there is a need to then detect any mating occurence between the male worm and any of the 5 female worms. To do this, we compute 
+                                the Euclidean distance between the male worm and the female worms. If the distance falls below a speicified threshold, we indicate contact.
+                            </p>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Udacity-->
+
+
+
+
+
+
+        <!--Udacity-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">Modifying DeepSORT</h2>
+                        <h3>"Make DeepSORT great again" :)</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <!-- <h4>Research</h4> -->
+                            <p>The system, now equipped with SOTA and modest custom algorithms achieves an okay result. However, 
+                                due to our strive for excellence, we ventured into making modifications on the DeepSORT algorithm which yielded 
+                                very positive results. The videos used in this study consists of 5 female worms and 1 male worm (total of 6 worms). 
+                                We leveraged this and modified the DeepSORT algorithm such that after the system detects 6 worms, we caution it 
+                                not to easily detect any new worm or object.<br><br>There is ongoing work on making a more detailed report of this study 
+                                available to the public.
+                            </p>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Udacity-->
+
+
+
+
+
+
+        <!--Udacity-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">System Output</h2>
+                        <p></p>
+                    </div>
+
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <!-- <h4>Research</h4> -->
+                            <p>The best performing system comprised of the YOLO model for detection, a custom modified version of DeepSORT for tracking, SAM for image segmentation, and our custom algorithms for mating analysis.
+                                We used metrics such as MOTA to evaluate the system's tracking performance, alongside F1 scores to evaluate the contact detection accuracy.<br><br>The best performing system had a MOTA accuracy score of 
+                                85.2%, Contact accuracy score of 93.7%, and a contact accuracy f1 score of 89.8%.
+                            </p><br><br>
+                            <video width="720" height="309" controls autoplay muted>
+                                <source src="videos/welcomer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    <!--End of Block-->
+
+                
+
+                </div>
+
+            </div>
+
+
+        </section>
+        <!--End of Udacity-->
+
+       
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<!-- <script src="js/jquery.stickyNavbar.min.js"></script> -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>

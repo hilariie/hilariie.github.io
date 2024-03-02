@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <!--Page Title-->
+    <title>Python Emailing Package</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    <!--icon-->
+    <link rel="shortcut icon" href="images/Slide1.jpg" title="Icon"/>
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/namari-color.css">
+
+    <!-- Font Awesome Icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+    <div id="status" class="la-ball-triangle-path">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!--End of Preloader-->
+
+<div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+    <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+    <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+    <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+    <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+</div>
+
+<div id="wrapper">
+
+    <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+        <div id="header" class="nav-collapse">
+            <div class="row clearfix">
+                <div class="col-1">
+
+
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a href="../../index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="../../work/work.html">Work Experience</a>
+                            </li>
+                            <li>
+                                <a href="../../Education/education.html">Education</a>
+                            </li>
+                            <li>
+                                <a href="../../index.html#four">Open Source Projects</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <div id="nav-trigger"><span></span></div>
+                    <nav id="nav-mobile"></nav>
+
+                </div>
+            </div>
+        </div><!--End of Header-->
+
+        <!--Banner Content-->
+        <div id="banner-content" class="row clearfix">
+
+            <div class="col-38">
+
+                <div class="section-heading">
+                    <h1>Python Emailing Package</h1>
+                </div>
+
+
+            </div>
+
+            <div class="col-2">
+                <div class="welcome-video">
+                    <img src="images/pymail.jpg"></img>
+                </div>
+            </div>
+
+        </div><!--End of Row-->
+    </header>
+
+    <!--Main Content Area-->
+    <main id="content">
+
+
+
+
+        <!--University of Reading-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>Research Volunteer</h3> -->
+                        <h2 class="section-title">Problem definition</h2>
+                    </div>
+                </div>
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <p>
+                                During my tenure at Ehealth4Everyone, I identified a recurring task: the need to send automated emails for various projects. Each project required incorporating email 
+                                functionality into the codebase, leading to redundant efforts. Recognizing the potential for efficiency improvement, I decided to streamline this operatoin through the
+                                development of a Python Emailing Package.<br><br>Despite exploring existing packages, none offered the level of robustness necessary to fulfill all our emailing requirements. 
+                                Motivated by this gap in the market, I undertook the challenge of developing a highly capable and adaptable Python Emailing Package. This package does not only provide a 
+                                solution for Ehealth4Everyone's challenges but its robustness also ensures it caters to the needs of any Python developer looking to send emails efficiently and effectively.
+                                <br><br><br>I worked remotely with 2 other contributors. My role in the team was to design and implement the Python Emailing Package as well as write unit tests and perform 
+                                the intial CI/CD for the package.
+                            </p>
+                        </div>
+                    <!--End of Block-->
+                </div>
+            </div>
+        </section>
+        <!--End of University of Reading-->
+
+
+
+        <!--Mountain Top University-->
+        <section class="introduction scrollto">
+
+            <div class="row clearfix">
+
+                <div class="col-3">
+                    <div class="section-heading">
+                        <!-- <h3>SUCCESS</h3> -->
+                        <h2 class="section-title">Solution</h2>
+                    </div>
+                </div>
+
+                <div class="col-2-3">
+
+                    <!--Block-->
+                        <div class="descriptions">
+                            <p>
+                                A Python package capable of extracting email contents to be sent to multiple recipients was developed. Some key features of the package include:<br>
+                                <li>Checks and cleans common erros in email addresses: The package checks for and rectifies common mistakes such as unexpected spaces, fullstops, etc., in the recipients' email addresses.</li>
+                                <li>Checks for valid email address syntax: Using regex pattern matching, the package checks for valid email address syntax and eliminates the faulty ones.</li>
+                                <li>Extracts content to be sent: Unlike other emailing packages, this package can extract the message to be sent from various sources such as .html and .txt files, or directly from a string.</li>
+                                <li>Reads recipient data from various files: To accommodate sending emails to multiple recipients, the package is capable of automatically detecting and reading email addresses from a variety of 
+                                    file formats and data structures including lists, tuples, sets, dictionaries, .json files, and .csv files.</li>
+                                <li>Includes recipient's name in the email message: If the names of the recipients are provided, the package can personalize emails by including the recipient's name after a specified introductory word (e.g., Hello <recipient's_name>).</li>
+                                <li>Auto detects the SMTP host of the provided sender's email address</li>
+                                <li>Attaching and displaying images in email: The package can attach a file, or multiple files from a specified directory in an email. Furthermore, it can display provided images as part of the email message, enhancing the visual appeal of the
+                                    email. This feature sets it apart from other Python packages.</li>
+                            </p>                    
+                        </div>
+                    <!--End of Block-->
+                </div>
+            </div>
+        </section>
+
+
+
+        
+       
+
+    </main>
+    <!--End Main Content Area-->
+
+
+    
+
+</div>
+
+<!-- Include JavaScript resources -->
+<script src="js/jquery.1.8.3.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/featherlight.min.js"></script>
+<script src="js/featherlight.gallery.min.js"></script>
+<script src="js/jquery.enllax.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/images-loaded.min.js"></script>
+<script src="js/lightbox.min.js"></script>
+<script src="js/site.js"></script>
+
+
+</body>
+</html>

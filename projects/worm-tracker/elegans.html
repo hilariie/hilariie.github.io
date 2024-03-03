@@ -176,15 +176,16 @@
                             <p>The system proposed in this study uses a Convolutional Neural Network (CNN) model - YOLO in this case - to detect and localise worms in a video, while using DeepSORT to track the detected worms. Although these two algorithms are considered to 
                                 be state-of-the-art (SOTA) algorithms, the combined performance in this case study was poor. The YOLO model would wrongly classify worm imprints as worms while the DeepSORT tracker would often lose track of worms thinking an already tracked worm is a new worm. In an attempt to improve the system's tracking performance, image segmentation was introduced. Initially, adaptive thresholding was utilised but to little avail. We then opted to use Meta AI's Segment Anything Model (SAM).
                              Below is the system's design:<br>
+                            </p>
                             <ul>
                                 <ul>
                                     <li>Pass video frames into the YOLO model to detect and localise worms</li>
                                     <li>Pass detected bounding boxes of the worms into the SAM model so we can segment each worm from the background</li>
-                                    <li>Pass in the new frame containing detected worms (now white) in a black background into DeepSORT for tracking</li>
+                                    <li>Pass in the new frame containing detected worms (now white) in a black background into DeepSORT for tracking as shown in the image below.</li>
                                 </ul>
                             </ul>
-
-                        </p>
+                            <br><br>
+                            <img src="images/SAM.png">
                         </div>
                     <!--End of Block-->
 

@@ -2441,6 +2441,14 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+		/* .image video {
+			border-radius: 5px;
+			display: block;
+		} */
+
+		/* .image.vid {
+			position: absolute;
+		} */
 
 		.image img {
 			border-radius: 5px;
@@ -3411,17 +3419,18 @@ input, select, textarea {
 /* Profile */
 	#profile {
 		display: flex;
-		/* margin-top: 10px; */
+		position: relative;
+		margin-top: 40px;
 		justify-content: center;
 		gap: 5rem;
 		height: 40vh;
 	}
 
 	.section__pic-container {
-		display: flex;
+		display: block;
 		height: 400px;
 		width: 400px;
-		margin-left: -400px;
+		position: relative;
 		/* align-content: center; */
 	}
 

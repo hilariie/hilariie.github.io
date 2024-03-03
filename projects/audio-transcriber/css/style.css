@@ -821,8 +821,7 @@ h6 {
 
 /* custom videos */
 .welcome-video {
-    margin-left: 20px;
-    margin-top: 50px;
+    position: relative;
 }
 
 .descriptions {
